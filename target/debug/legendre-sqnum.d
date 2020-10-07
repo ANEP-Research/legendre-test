@@ -1,1 +1,0 @@
-/Users/quickshell/legendre-sqnum/target/debug/legendre-sqnum: /Users/quickshell/legendre-sqnum/src/legendre.rs /Users/quickshell/legendre-sqnum/src/main.rs /Users/quickshell/legendre-sqnum/src/sieve.rs
