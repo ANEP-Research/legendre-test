@@ -142,11 +142,11 @@ fn p_generate(n: u32, size_p: usize, max_k: u32) {
         let probability = 1.0 - ((s_cnt as f32) / ((n - sqrt_n) as f32));
         ans.push((array_to_string(test_primes.clone()), probability));
     }
-    dbg!(ans.clone());
+    //dbg!(ans.clone());
     show_charts(ans, P_FILENAME)
 }
 
 fn main() {
-    //size_p_generate(N, MAX_SIZE_P, MAX_K);
+    size_p_generate(N, MAX_SIZE_P, MAX_K);
     p_generate(N, 5, MAX_K);
 }
